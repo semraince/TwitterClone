@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A359CFA266960B800955100 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A359CF9266960B800955100 /* LoginController.swift */; };
-		2A359CFC2669613200955100 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A359CFB2669613200955100 /* AuthenticationController.swift */; };
+		2A359CFC2669613200955100 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A359CFB2669613200955100 /* RegistrationController.swift */; };
 		2A4B96D92668404200397DEA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B96D82668404200397DEA /* Extensions.swift */; };
 		2A9D9C8E2667FAF4005C1BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D9C8D2667FAF4005C1BFC /* AppDelegate.swift */; };
 		2A9D9C902667FAF4005C1BFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D9C8F2667FAF4005C1BFC /* SceneDelegate.swift */; };
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		2A359CF9266960B800955100 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		2A359CFB2669613200955100 /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		2A359CFB2669613200955100 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		2A4B96D82668404200397DEA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2A9D9C8A2667FAF4005C1BFC /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9D9C8D2667FAF4005C1BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				2A359CF9266960B800955100 /* LoginController.swift */,
-				2A359CFB2669613200955100 /* AuthenticationController.swift */,
+				2A359CFB2669613200955100 /* RegistrationController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 				2A9D9CAF26680684005C1BFC /* ConversationController.swift in Sources */,
 				2AC16333266BD3480007047A /* Utilities.swift in Sources */,
 				2A9D9CAB26680333005C1BFC /* MainTabBarController.swift in Sources */,
-				2A359CFC2669613200955100 /* AuthenticationController.swift in Sources */,
+				2A359CFC2669613200955100 /* RegistrationController.swift in Sources */,
 				2A4B96D92668404200397DEA /* Extensions.swift in Sources */,
 				2A359CFA266960B800955100 /* LoginController.swift in Sources */,
 				2A9D9C902667FAF4005C1BFC /* SceneDelegate.swift in Sources */,

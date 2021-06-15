@@ -46,7 +46,7 @@ class LoginController: UIViewController {
         button.setTitle("Log In", for: .normal);
         button.setTitleColor(UIColor.customTwitterBlue, for: .normal);
         button.backgroundColor = .white
-        button.heightAnchor.constraint(lessThanOrEqualToConstant: 50).isActive = true;
+        button.heightAnchor.constraint(equalToConstant: 50).isActive = true;
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20);
         button.layer.cornerRadius = 5;
         button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside);
@@ -63,12 +63,15 @@ class LoginController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         configureUI();
+        
     }
+    
     @objc func handleLogin(){
         print("Handle login here");
     }
     @objc func handleShowSignUp(){
-        print("Handle sign up");
+        let registrationController = RegistrationController();
+        navigationController?.pushViewController(registrationController, animated: true);
     }
     func configureUI(){
         view.backgroundColor = .customTwitterBlue;
